@@ -32,10 +32,18 @@ if(jelly % 2 == 0) {
 
  var time = 8;
 
-if (time < 7 || time > 12) {
+if (time <= 7 || time >= 12) {
   console.log ("Go back to sleep");
 } else if (time > 7 && time < 8 ) {
  console.log ("Hit snooze");
 } else {
   console.log ("Time to get up");
+}
+
+var raining = true
+
+if (raining != true) {
+  console.log ("Go outside")
+} else {
+  console.log ("Stay in and make hot chocolate!!")
 }
