@@ -24,6 +24,8 @@ var mode = mult%3;
 
 console.log (mode);
 
+var jelly =7;
+
 if(jelly % 2 == 0) {
     console.log("Even");
  } else {
