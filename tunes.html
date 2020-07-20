@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJ Song Request</title>
+    <link rel="stylesheet" type="text/css" href="tunes.css">
 </head>
 <body>
-    <h1>Request a song below:</h1>
-    <label for="song">song</label>
+    <div class="back"> 
+    <h1 id=banner>Request a song below:</h1>
+    <label id=song for="request">Song:</label>
     <input name="song" type="text" id="request">
 
     <br>
-<button onClick="jukebox()">submit
+<button class = "button" onClick="jukebox()">submit
 </button>
 
 <br>
-<h2>You requested:</h2>
-<p id="song"></p>
+<h2 id=que>You requested:</h2>
+<p id="music"></p>
 
     
 <script src="tunes.js"></script>
+</div>
 </body>
 </html>
