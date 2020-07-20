@@ -13,11 +13,11 @@ function jukebox() {
 //add the value of the requested song (now nicknamed my var songChoice) into my array 
     tunes.push(songChoice);
 //make an empty storage container to hold requests
-    var content = "";
+    var content = " ";
 //start a loop - add contents of storage container to array 
         for (var i=0; i < tunes.length; i++){
         content += tunes[i]; 
-        content += " ";
+        content += " <br> ";
         }
 //send the contents of storage container out to screen
 document.getElementById("music").innerHTML = content
