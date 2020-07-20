@@ -5,22 +5,22 @@
     var goose = "Great " + "Balls "+ "of Fire!";
     return goose;
     }
-    let goose= maverick()
-    console.log("Goodness gracious, " + goose);
+let goose= maverick()
+console.log("Goodness gracious, " + goose);
 
 //Question number 3
 function closetFatKid(calories, servings) {
     var betterGoRun = calories * servings;
- return betterGoRun;
+    return betterGoRun;
  }
  let betterGoRun=closetFatKid(200, 4)
- console.log ("I just ate "+ betterGoRun + " calories in one sitting, I need to hit the gym!");
+ console.log("I just ate "+ betterGoRun + " calories in one sitting, I need to hit the gym!");
 
 
     // Question number 4
 function numberfour(first, next) {
     for (first; first <= next; first++) {
-      console.log(first);
+    console.log(first);
     }
   }
   
