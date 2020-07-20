@@ -1,0 +1,27 @@
+#song {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #49b2c0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px rgb(34, 78, 92);
+  }
+  
+  .button:hover {background-color: #356dc2}
+  
+  .button:active {
+    background-color: #0d2977;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
