@@ -1,3 +1,7 @@
+.body {
+  background-color: rgb(221, 98, 156);
+}
+
 #banner {
   background-color: rgb(255, 8, 175);
   max-width: 325px;
