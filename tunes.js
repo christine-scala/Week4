@@ -15,11 +15,11 @@ function jukebox() {
 //make an empty storage container to hold requests
     var content = " ";
 //start a loop - add contents of storage container to array 
-        for (var i=0; i < tunes.length; i++){
+    for (var i=0; i < tunes.length; i++){
         content += tunes[i]; 
         content += " <br> ";
         }
 //send the contents of storage container out to screen
-document.getElementById("music").innerHTML = content
+document.getElementById("music").innerHTML = content;
     }
 }
